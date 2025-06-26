@@ -38,10 +38,12 @@ This repository contains a reproducible research project conducted on the Child 
     All operations kept lightweight to run on standard CPUs.
 
 # Modeling Approach
-Algorithm	Description	Library Used
-K-Means	Partitioning-based clustering using Euclidean distance.	scikit-learn
-BIRCH	Hierarchical clustering suitable for large datasets.	scikit-learn
-DBSCAN	Density-based clustering robust to noise.	scikit-learn
+| Algorithm | Description                          | Library Used    |
+|-----------|--------------------------------------|-----------------|
+| K-Means   | Partition-based clustering            | scikit-learn    |
+| BIRCH     | Hierarchical clustering for big data  | scikit-learn    |
+| DBSCAN    | Density-based clustering, robust to noise | scikit-learn |
+
 
 All models were trained first on the CSV version of the dataset for rapid experimentation and then retrained on the full Parquet dataset for deeper insights.
 # Evaluation
