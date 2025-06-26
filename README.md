@@ -1,10 +1,10 @@
 #Problematic Internet Use Detection using Unsupervised Learning
 
 A Reproducible Research Project on Child Mind Institute's Psychometric Dataset
-📘 Overview
+ # Overview
 
 This repository contains a reproducible research project conducted on the Child Mind Institute's Problematic Internet Usage (PIU) dataset, focusing on identifying behavioral patterns using unsupervised learning techniques. The project applies clustering methods such as K-Means, BIRCH, and DBSCAN, evaluated using Silhouette Scores to assess cluster quality.
-🧪 Objectives
+# Objectives
 
     Explore psychometric traits associated with problematic internet use.
 
@@ -14,7 +14,7 @@ This repository contains a reproducible research project conducted on the Child 
 
     Ensure the research is lightweight and reproducible on a simple computer.
 
-🗂️ Dataset Description
+ # Dataset Description
 
     Original Data Format:
 
@@ -25,7 +25,7 @@ This repository contains a reproducible research project conducted on the Child 
     Source: Child Mind Institute - Problematic Internet Use Competition 
   [Datasets](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/data)
 
-🛠️ Preprocessing
+# Preprocessing
 
     Numerical and categorical columns were identified and cleaned.
 
@@ -37,14 +37,14 @@ This repository contains a reproducible research project conducted on the Child 
 
     All operations kept lightweight to run on standard CPUs.
 
-📈 Modeling Approach
+# Modeling Approach
 Algorithm	Description	Library Used
 K-Means	Partitioning-based clustering using Euclidean distance.	scikit-learn
 BIRCH	Hierarchical clustering suitable for large datasets.	scikit-learn
 DBSCAN	Density-based clustering robust to noise.	scikit-learn
 
 All models were trained first on the CSV version of the dataset for rapid experimentation and then retrained on the full Parquet dataset for deeper insights.
-🧮 Evaluation
+# Evaluation
 
 Clustering effectiveness was measured using Silhouette Score:
 
@@ -52,7 +52,7 @@ from sklearn.metrics import silhouette_score
 score = silhouette_score(X, labels)
 
 This score quantifies how well samples are clustered with others that are similar.
-🖥️ Requirements
+# Requirements
 
     Python 3.8+
 
@@ -72,7 +72,7 @@ Install all dependencies with:
 
 pip install -r requirements.txt
 
-🔁 Reproducibility
+# Reproducibility
 
     The code is modular and can be run in sequence:
 
@@ -89,11 +89,11 @@ pip install -r requirements.txt
     Results are deterministic across runs with fixed seeds.
 
 
-📢 Citation / Acknowledgment
+# Citation / Acknowledgment
 
 This project uses data from the Child Mind Institute, made available through Kaggle.
 Please cite the original data source if you use this code or findings in your work.
-🚀 Future Work
+# Future Work
 
     Try more advanced clustering techniques (e.g., HDBSCAN, Gaussian Mixture Models).
 
