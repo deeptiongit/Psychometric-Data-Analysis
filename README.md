@@ -3,7 +3,7 @@
 A Reproducible Research Project on Child Mind Institute's Psychometric Dataset
  # Overview
 
-This repository contains a reproducible research project conducted on the Child Mind Institute's Problematic Internet Usage (PIU) dataset, focusing on identifying behavioral patterns using unsupervised learning techniques. The project applies clustering methods such as K-Means, BIRCH, and DBSCAN, evaluated using Silhouette Scores to assess cluster quality.
+This repository contains a reproducible research project conducted on the Child Mind Institute's Problematic Internet Usage (PIU) dataset, focusing on identifying behavioral patterns using unsupervised learning techniques. The project applies clustering methods evaluated using Silhouette Scores to assess cluster quality.
 # Objectives
 
     Explore psychometric traits associated with problematic internet use.
